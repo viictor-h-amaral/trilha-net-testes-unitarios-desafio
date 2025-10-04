@@ -8,7 +8,7 @@ namespace TestesUnitarios.Desafio.Console.Services
             return numeroCaracteres;
         }
 
-        public bool ContemCaractere(string texto, string textoProcurado)
+        public bool ContemSubString(string texto, string textoProcurado)
         {
             var contem = texto.Contains(textoProcurado);
             return contem;
